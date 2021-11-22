@@ -22,19 +22,6 @@ namespace projeto_hashing_com_deslocamento
 
         }
 
-        private int CalculoHash(string hash)
-        {
-            string s = hash;
-            int j = 0;
-            foreach (char c in s)
-            {
-                j += Convert.ToInt32(c);
-            }
-
-            return j;
-
-        }
-
         private void cmdAdicionar_Click(object sender, EventArgs e)
         {
             string chave = textBox1.Text;
